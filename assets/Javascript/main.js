@@ -16,11 +16,4 @@ const closeMenu = document.querySelector(".close-button");
 closeMenu.addEventListener("click", function () {
   showMenu.classList.remove("menu-onclick");
   menuLeftSideShow.classList.remove("menu-show");
-
-  //   function scroll() {
-  //     window.scroll({ auto });
-  //   }
-  //   window.addEventListener("scroll", scroll);
 });
-
-// https://www.youtube.com/watch?v=6eRwCRPy7Tc
